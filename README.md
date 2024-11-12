@@ -12,31 +12,32 @@ Platform Executor is a Flutter app that provides a convenient way to execute pla
 ## Getting Started
 To get started with Platform Executor, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
 
-Copygit clone https://github.com/your-username/platform_executor.git
+'''git clone https://github.com/your-username/platform_executor.git'''
 
-Open the project in your preferred IDE (e.g., Android Studio or Visual Studio Code).
-Run the app:
+2. Open the project in your preferred IDE (e.g., Android Studio or Visual Studio Code).
+3. Run the app:
 
-For Android: flutter run
-For iOS: flutter run -d ios
+- For Android: flutter run
+- For iOS: flutter run -d ios
 
 
-Explore the example features:
+4. Explore the example features:
 
 Battery level
-Device info
-Sensor data
+// Device info - coming soon
+// Sensor data - coming soon
 
 
 
 ## Usage
 To use the Platform Executor in your own Flutter app, follow these steps:
 
-Add the platform_executor package to your pubspec.yaml:
+1. Add the platform_executor package to your pubspec.yaml:
 
-yamlCopydependencies:
+yaml 
+dependencies:
 platform_executor:
 git:
 url: https://github.com/your-username/platform_executor.git
